@@ -1,0 +1,17 @@
+func f(x){
+    return 2*x;
+}
+
+func main(){
+    var x; 
+    var y;
+    x = 3;
+    y = f(x);
+    print(y);
+}
+
+/*
+*OUT*
+6
+*OUT*
+*/

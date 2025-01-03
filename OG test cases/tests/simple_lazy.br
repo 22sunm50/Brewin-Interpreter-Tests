@@ -1,0 +1,15 @@
+func main() {
+    var x;
+    var y;
+    x = 5;
+    y = x + 10;
+    x = 100;
+    print(y); /* still prints 15 */
+}
+
+
+/*
+*OUT*
+15
+*OUT*
+*/

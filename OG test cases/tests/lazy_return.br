@@ -1,0 +1,22 @@
+func f(x) {
+  print("running f");
+  return g(5) + 3;
+}
+
+func g(x) {
+  print("running g");
+  return x;
+}
+
+func main() {
+    f(3);
+    print("end");
+}
+
+
+/*
+*OUT*
+running f
+end
+*OUT*
+*/

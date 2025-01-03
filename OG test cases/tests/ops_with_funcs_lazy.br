@@ -1,0 +1,19 @@
+func f(x){
+    return 2*x;
+}
+func g(x){
+    return 3;
+}
+func main(){
+    var x;
+    var y;
+    y = 1;
+    x = f(y) + g(y);
+    print(x);
+}
+
+/*
+*OUT*
+5
+*OUT*
+*/

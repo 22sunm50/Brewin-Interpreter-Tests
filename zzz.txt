@@ -1,0 +1,164 @@
+Running 113 tests...
+Running v4/tests/Exceptions-Challenge_Branching_Exceptions.br...  PASSED
+Running v4/tests/Correctness_Autograder_Cases-test_exception_argument_1.br...  PASSED
+Running v4/tests/Eager-Like_Behavior-nil_comparison.br...  PASSED
+Running v4/tests/Legacy_V2_-_Operators-Boolean_Correctness.br...  PASSED
+Running v4/tests/Legacy_V2_-_Functions-Simple_Recursion_-_factorial.br...  PASSED
+Running v4/tests/Spec_Examples-Div0_Demo.br...  PASSED
+Running v4/tests/Exceptions-Raise_to_Return_to_Catch.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Lazy_argument_correctness.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Test_cached_eval.br...  PASSED
+Running v4/tests/Exceptions-Simple_Try_Catch_Hit.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Deeply_Nested_Lazy_Evaluation_and_Cache.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Override_Lazy_Input.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Phantom_Print.br...  PASSED
+Running v4/tests/Correctness_Autograder_Cases-test_exception_condtion_1.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Phantom_Input.br...  PASSED
+Running v4/tests/Exceptions-Return_inside_Try_Catch_2.br...  PASSED
+Running v4/tests/Eager-Like_Behavior-For-Return_Termination.br...  PASSED
+Running v4/tests/Correctness_Autograder_Cases-test_lazy_eval_mutation_1.br...  PASSED
+Running v4/tests/Spec_Examples-Except_Handling_Simple_Prog.br...  PASSED
+Running v4/tests/Exceptions-Try_Catch_Shadowing_Validity.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Lazy_Invalid_Call_to_input.br...  PASSED
+Running v4/tests/Spec_Examples-Lazy_Error_Handling_example.br...  PASSED
+Running v4/tests/Legacy_V2_-_Functions-Simple_Call.br...  PASSED
+Running v4/tests/Legacy_V2_-_Input_and_Output-Input_Return_Type.br...  PASSED
+Running v4/tests/Spec_Examples-Shortcircuit_Eval_Example.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Eager_for-stmt_header.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Lazy_eval_outside_scope.br...  PASSED
+Running v4/tests/Exceptions-Try_Catch_Fallthrough.br...  PASSED
+Running v4/tests/Legacy_V2_-_Control_Flow-If-Statement_Shadowing.br...  PASSED
+Running v4/tests/Spec_Examples-Try_Catch_Example.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Function_Order_of_Eval.br...  PASSED
+Running v4/tests/Spec_Examples-Lazy_Eval_Demo.br...  PASSED
+Running v4/tests/Exceptions-Eager_Try-Catch_FSM.br...  PASSED
+Running v4/tests/Exceptions-Short_Circuits_Avoid_Errors.br...  PASSED
+Running v4/tests/Legacy_V2_-_Input_and_Output-Print_Returns_nil.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Lazy_self-ref_print_arg.br... 
+Exception: 
+ErrorType.NAME_ERROR: Variable x not found
+ FAILED
+Running v4/tests/Eager-Like_Behavior-For-header_local_scope_access.br...  PASSED
+Running v4/tests/Exceptions-Except_within_expression.br... 
+Exception: 
+ErrorType.NAME_ERROR: Undefined variable x in assignment
+ FAILED
+Running v4/tests/Legacy_V2_-_Operators-Arithmetic_Correctness.br...  PASSED
+Running v4/tests/Legacy_V2_-_Functions-Early_Return.br...  PASSED
+Running v4/tests/Spec_Examples-Short_Circuiting_Example.br...  PASSED
+Running v4/tests/Exceptions-Try_Catch_Error_Unwinding.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Lazy_self-ref_input_arg.br... 
+Exception: 
+ErrorType.NAME_ERROR: Variable x not found
+ FAILED
+Running v4/tests/Legacy_V2_-_Control_Flow-For-Statement_Shadowing.br...  PASSED
+Running v4/tests/Legacy_V2_-_Functions-Call_Chain.br...  PASSED
+Running v4/tests/Legacy_V2_-_Functions-Pass_By_Value.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Eager_input_func_call.br...  PASSED
+Running v4/tests/Correctness_Autograder_Cases-test_bool_shortcircuit_1.br...  PASSED
+Running v4/tests/Legacy_V2_-_Input_and_Output-Simple_User_Input.br...  PASSED
+Running v4/tests/Exceptions-Try_Catch_Scope_Unwinding.br... 
+Expected output:
+['45', 'first try', 'second try', 'third try', '', 'for body scope', '0', 'for body scope', '00', 'for body scope', '000', 'second try', 'first try', '45', 'false', '45']
+
+Actual output:
+['45', 'first try', 'second try', 'third try', '', 'for body scope', '0', 'for body scope', '00', 'for body scope', '000', '000', '000', '000', 'false', '000']
+ FAILED
+Running v4/tests/Correctness_Autograder_Cases-test_lazy_eval_cache_1.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Lazy_input_func_call.br...  PASSED
+Running v4/tests/Exceptions-Lazy_Try-Catch_FSM.br...  PASSED
+Running v4/tests/Eager-Like_Behavior-If-Return_Termination.br...  PASSED
+Running v4/tests/Legacy_V2_-_Control_Flow-Simple_For_Loop.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Lazy_self-ref_fcall_arg.br...  PASSED
+Running v4/tests/Correctness_Autograder_Cases-test_exception_basic_2.br...  PASSED
+Running v4/tests/Correctness_Autograder_Cases-test_lazy_eval_basic_1.br...  PASSED
+Running v4/tests/Legacy_V2_-_Functions-Mutual_Recursion.br...  PASSED
+Running v4/tests/Exceptions-Return_inside_Try_Catch_1.br...  PASSED
+Running v4/tests/Eager-Like_Behavior-Sequential_Prints.br...  PASSED
+Running v4/tests/Lazy_Evaluation-Lazy_as_non-eval_param.br...  PASSED
+Running v4/tests/Legacy_V2_-_Operators-Mixed_Comparison.br...  PASSED
+Running v4/tests/Correctness_Autograder_Cases-test_lazy_eval_update_1.br...  PASSED
+Running v4/tests/Exceptions-Test_nested_try-catch.br... 
+Exception: 
+pop from empty list
+ FAILED
+Running v4/tests/Exceptions-Except_in_for-header.br... 
+Exception: 
+ErrorType.NAME_ERROR: Variable i not found
+ FAILED
+Running v4/tests/Exceptions-Empty_String_is_a_valid_catch.br...  PASSED
+Running v4/tests/Exceptions-Indirect_Except_Catch.br...  PASSED
+Running v4/tests/Correctness_Autograder_Cases-test_exception_func_call_1.br...  PASSED
+Running v4/tests/Spec_Examples-Need_Semantics_Simple_Prog.br...  PASSED
+Running v4/tests/Correctness_Autograder_Cases-test_lazy_eval_func_call_1.br...  PASSED
+Running v4/fails/Legacy_V2_-_Control_Flow-Mixed_If-For.br...  PASSED
+Running v4/fails/Incorrectness_Autograder_Cases-text_exception_2.br...  PASSED
+Running v4/fails/Legacy_V2_-_Variables-Double_Declaration_Inside_If-Scope.br...  PASSED
+Running v4/fails/Legacy_V2_-_Operators-Type_Compat_-_Cond_Int.br... 
+Expected error:
+['ErrorType.TYPE_ERROR']
+
+Actual output:
+['true']
+ FAILED
+Running v4/fails/Exceptions-Ill_formed_raise_statement_int.br...  PASSED
+Running v4/fails/Legacy_V2_-_Operators-Type_Compat_-_Arith_Bool.br...  PASSED
+Running v4/fails/Lazy_Evaluation-Eager_Invalid_Call_to_inputs.br...  PASSED
+Running v4/fails/Exceptions-Lazy_Uncaught_Division_by_Zero.br...  PASSED
+Running v4/fails/Exceptions-Name_Error_always_Falls_through.br...  PASSED
+Running v4/fails/Legacy_V2_-_Functions-No_Declaration_in_Function.br...  PASSED
+Running v4/fails/Legacy_V2_-_Operators-Type_Compat_-_Int_Bool.br...  PASSED
+Running v4/fails/Exceptions-Uncaught_Division_by_Zero.br...  PASSED
+Running v4/fails/Spec_Examples-Lazy_Error_Example.br...  PASSED
+Running v4/fails/Legacy_V2_-_Control_Flow-If-Statement_Condition_is_Boolean.br...  PASSED
+Running v4/fails/Exceptions-Deeply_Nested_Division_by_Zero.br...  PASSED
+Running v4/fails/Exceptions-Except_in_if-condition.br...  PASSED
+Running v4/fails/Exceptions-Ill_formed_raise_statement_nil.br...  PASSED
+Running v4/fails/Legacy_V2_-_Functions-Double_Declaration_in_Function.br...  PASSED
+Running v4/fails/Exceptions-Challenge_Lazy_Error_Early_Return_and_Named_Errors.br... 
+Expected error:
+['no error yet', '2', '1', '1', '4', '3', '2', '1', 'ErrorType.FAULT_ERROR']
+
+Received error:
+['no error yet', '2', '1', 'ErrorType.NAME_ERROR']
+
+Exception: 
+ErrorType.NAME_ERROR: Variable r1 not found
+ FAILED
+Running v4/fails/Exceptions-Lazy_Uncaught_Raised_Error.br...  PASSED
+Running v4/fails/Spec_Examples-Eager_error_example.br...  PASSED
+Running v4/fails/Exceptions-Uncaught_Raised_Error.br...  PASSED
+Running v4/fails/Incorrectness_Autograder_Cases-test_lazy_eval_error_4.br...  PASSED
+Running v4/fails/Legacy_V2_-_Control_Flow-If-Statement_Scope_Lifetime.br...  PASSED
+Running v4/fails/Lazy_Evaluation-Lazy_Undef_Func_Error.br...  PASSED
+Running v4/fails/Exceptions-Try_Catch_Shadowing.br...  PASSED
+Running v4/fails/Lazy_Evaluation-Lazy_Undef_Func_and_Vars_Error.br...  PASSED
+Running v4/fails/Legacy_V2_-_Control_Flow-For-Statement_Condition_is_Boolean.br... 
+Expected error:
+['ErrorType.TYPE_ERROR']
+
+Actual output:
+[]
+ FAILED
+Running v4/fails/Spec_Examples-Lazy_Eval_Example.br...  PASSED
+Running v4/fails/Legacy_V2_-_Variables-Double_Declaration.br...  PASSED
+Running v4/fails/Exceptions-Bad_variable_value_for_raise_(lazy).br...  PASSED
+Running v4/fails/Spec_Examples-Lazy_Raise_in_Function_Example.br...  PASSED
+Running v4/fails/Legacy_V2_-_Variables-Declaration_and_Assignment.br...  PASSED
+Running v4/fails/Exceptions-Simple_Try_Catch_Miss.br...  PASSED
+Running v4/fails/Legacy_V2_-_Functions-Invalid_Parameter_Shadow.br... 
+Expected error:
+['entered function', 'ErrorType.NAME_ERROR']
+
+Actual output:
+['entered function']
+ FAILED
+Running v4/fails/Lazy_Evaluation-Lazy_Undef_Var_Error.br...  PASSED
+Running v4/fails/Exceptions-Deeply_Nested_Lazy_Error.br...  PASSED
+Running v4/fails/Lazy_Evaluation-Eager_Invalid_Call_to_inputi.br...  PASSED
+Running v4/fails/Legacy_V2_-_Variables-Double_Declaration_Inside_For-Scope.br...  PASSED
+Running v4/fails/Exceptions-Ill_formed_raise_statement_bool.br...  PASSED
+Running v4/fails/Legacy_V2_-_Operators-Type_Compat_-_Unary_Bool.br...  PASSED
+Running v4/fails/Exceptions-Type_Error_always_Falls_through.br...  PASSED
+103/113 tests passed.
+Total Score:     91.15%

@@ -1,0 +1,24 @@
+func f(x) {
+  print("running f");
+  return 1;
+}
+
+func g(x) {
+  print("running g");
+  return x;
+}
+
+func main() {
+  var x;
+  var y;
+  y = 5;
+  f(g(5));
+  print("ending");
+}
+
+/*
+*OUT*
+running f
+ending
+*OUT*
+*/
